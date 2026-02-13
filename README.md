@@ -1,152 +1,150 @@
-# \# 🌱 Smart Irrigation System (Embedded + GSM)
+\# 🌱 Smart Irrigation System (Embedded + GSM)
 
-# 
 
-# A low-cost autonomous irrigation controller that monitors soil moisture and temperature to optimize watering and prevent water wastage.
 
-# The system notifies the user via SMS whenever irrigation occurs, enabling remote monitoring without internet connectivity.
+Autonomous irrigation controller that monitors soil moisture and temperature to optimize watering and prevent water wastage.
 
-# 
+The system notifies the user via SMS whenever irrigation occurs, enabling remote monitoring without internet connectivity.
 
-# ---
 
-# 
 
-# \## 📌 Problem
+---
 
-# 
 
-# Traditional irrigation requires manual inspection and often leads to:
 
-# 
+\### 📌 Problem
 
-# \* Overwatering
 
-# \* Water wastage
 
-# \* Plant damage due to heat evaporation
+Traditional irrigation requires manual inspection and often leads to:
 
-# \* Continuous human monitoring
 
-# 
 
-# ---
+\* Overwatering
 
-# 
+\* Water wastage
 
-# \## 💡 Solution
+\* Plant damage due to heat evaporation
 
-# 
+\* Continuous human monitoring
 
-# This system automatically decides when to water plants based on environmental conditions and alerts the farmer using GSM communication.
 
-# 
 
-# ---
+---
 
-# 
 
-# \## 🧠 Features
 
-# 
+\### 💡 Solution
 
-# \* Soil moisture sensing
 
-# \* Temperature-aware watering logic
 
-# \* Automatic pump control
+The system automatically decides when to water plants based on environmental conditions and alerts the farmer using GSM communication.
 
-# \* LCD real-time monitoring
 
-# \* SMS notification using SIM800L
 
-# \* Calibrated sensor readings
+---
 
-# \* Non-blocking embedded design
 
-# 
 
-# ---
+\### 🧠 Features
 
-# 
 
-# \## 🛠 Hardware Used
 
-# 
+\* Soil moisture sensing
 
-# \* Arduino Uno
+\* Temperature-aware watering logic
 
-# \* Soil Moisture Sensor
+\* Automatic pump control
 
-# \* DHT11 Temperature Sensor
+\* LCD real-time monitoring
 
-# \* Relay Module + Water Pump
+\* SMS notification using SIM800L
 
-# \* SIM800L GSM Module
+\* Calibrated sensor readings
 
-# \* 16x2 I2C LCD
+\* Non-blocking embedded design
 
-# 
 
-# ---
 
-# 
+---
 
-# \## ⚙️ Working Logic
 
-# 
 
-# Watering occurs only if:
+\### 🛠 Hardware Used
 
-# 
 
-# Dry Soil AND Safe Temperature (<35°C)
 
-# 
+\* Arduino Uno
 
-# Prevents watering during hot periods to reduce evaporation loss.
+\* Soil Moisture Sensor
 
-# 
+\* DHT11 Temperature Sensor
 
-# ---
+\* Relay Module + Water Pump
 
-# 
+\* SIM800L GSM Module
 
-# \## 📷 System Architecture
+\* 16x2 I2C LCD
 
-# 
 
-# Sensors → Microcontroller → Decision Engine → Pump + GSM + Display
 
-# 
+---
 
-# ---
 
-# 
 
-# \## 🚀 Future Improvements
+\### ⚙️ Working Logic
 
-# 
 
-# \* IoT Cloud Dashboard (ESP8266)
 
-# \* Mobile App Monitoring
+Watering occurs only if:
 
-# \* Data logging \& analytics
 
-# \* Weather prediction integration
 
-# 
+\*\*Dry Soil AND Safe Temperature (< 35°C)\*\*
 
-# ---
 
-# 
 
-# \## 👨‍💻 Author
+Prevents watering during hot periods to reduce evaporation loss.
 
-# 
 
-# Developed as an embedded systems project demonstrating real-world automation and resource optimization.
+
+---
+
+
+
+\### 📷 System Architecture
+
+
+
+Sensors → Microcontroller → Decision Engine → Pump + GSM + Display
+
+
+
+---
+
+
+
+\### 🚀 Future Improvements
+
+
+
+\* IoT Cloud Dashboard (ESP8266)
+
+\* Mobile App Monitoring
+
+\* Data logging \& analytics
+
+\* Weather prediction integration
+
+
+
+---
+
+
+
+\### 👨‍💻 Authors
+
+
 
 
 
