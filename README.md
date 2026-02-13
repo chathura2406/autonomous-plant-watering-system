@@ -72,4 +72,3 @@ Sensors → Microcontroller → Decision Engine → Pump + GSM + Display
 
 ## 👨‍💻 Author
 
-Developed as an embedded systems project demonstrating real-world automation and resource optimization.
