@@ -76,7 +76,7 @@ Sensors → Microcontroller → Decision Engine → Pump + GSM + Display
 
 | Name             | GitHub                                        | Contribution                                |
 | ---------------  | ------------------------------------------    | ------------------------------------------- |
-| K.C.J.Rathnasiri | [@chathura2406](https://github.com/username1) | Embedded control logic & sensor processing  |
+| K.C.J.Rathnasiri | [@chathura2406](https://github.com/chathura2406) | Embedded control logic & sensor processing  |
 | Member 2         | [@username2](https://github.com/username2)    | Hardware design & circuit implementation    |
 | Member 3         | [@username3](https://github.com/username3)    | GSM communication & SMS notification module |
 | Member 4         | [@username4](https://github.com/username4)    | LCD interface & documentation               |
