@@ -68,7 +68,6 @@ Sensors → Microcontroller → Decision Engine → Pump + GSM + Display
 * Data logging & analytics
 * Weather prediction integration
 
----
 
 ---
 
@@ -82,6 +81,22 @@ Sensors → Microcontroller → Decision Engine → Pump + GSM + Display
 | Member 4         | [@username4](https://github.com/username4)    | LCD interface & documentation               |
 
 ---
+### 📂 Repository Structure
+
+smart-irrigation-embedded-system/
+│
+├── code/
+│   └── smart_irrigation.ino
+│
+├── hardware/
+│   └── components_list.md
+│
+├── docs/
+│   ├── architecture.png
+│   └── circuit_diagram.png
+│
+├── README.md
+└── LICENSE
 
 ### 🤝 Collaboration
 
